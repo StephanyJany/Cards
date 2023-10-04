@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+
+body {
+  background-color: #2d2d38;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding: 32px;
+  gap: 60px;
+}
+
+.cards__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  border-radius: 35px;
+  max-height: 256px;
+  width: 200px;
+  height: 250px;
+  background-color: #17171c;
+  box-shadow: 20px 60px 60px rgba(0, 0, 0, 0.37);
+}
+
+.card__titulo {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: "Outfit", sans-serif;
+}
+.fields__cinza {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2a2a35;
+  padding: 20px;
+  width: 50px;
+  height: 35px;
+  border-radius: 10px;
+}
+
+.card__fields {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  padding: 4px;
+}
+.card__box {
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.card__box--verde {
+  display: flex;
+  flex-direction: column;
+  background-color: #1dae4e;
+  width: 90px;
+  height: 110px;
+  border-radius: 10px;
+}
+.card__box--azul {
+  display: flex;
+  flex-direction: column;
+  background-color: #3346ff;
+  width: 90px;
+  height: 110px;
+  border-radius: 10px;
+}
+.card__txt {
+  padding-top: 3px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box__number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  font-size: 30px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 800;
+}
+.box__divisoria {
+  border: none;
+  border-top: 1px solid #ffffff48;
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cards__btn {
+  padding-top: 15px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.card__legenda {
+  color: #575767;
+  font-weight: 600;
+}
+
+.txt_card {
+  font-size: 25px;
+}
+
+.txt_titulo {
+  font-weight: 600;
+}
+
+.card__subtitulo {
+  font-size: 20px;
+  display: flex;
+  text-align: center;
+}
+
+.card__hora {
+  font-size: 20px;
+  font-family: "Outfit", sans-serif;
+}
+
+.box__txt,
+.card__legenda {
+  font-size: small;
+}
+
+.box__img,
+.card__img,
+.fields__img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.card__title {
+  font-size: 20px;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.card__img {
+  padding: 2px;
+}
+.card__sublegenda {
+  padding-top: 7px;
+}
